@@ -46,4 +46,45 @@ footer i{
 }
 footer i:hover{
     color: hsl(300, 69%, 71%);
+
+}
+@media (max-width:375px){
+    body{
+        background-image: url(bg-mobile.svg);
+        padding: 10px;
+    }
+    header .logo{
+        width: 100px;
+    }
+    main{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    main img{
+        width: 300px;
+    }
+    main .content{
+        width: 300px;
+    }
+    .content h1 , .content p {
+        text-align: center
+    }
+    .content button{
+        width: 100%;
+    }
+    footer{
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+    }
+    footer i{
+        margin: 0px;
+        font-size: 20px;
+    }
+    footer i:nth-child(2){
+        margin: 0px 20px;
+    }
 }

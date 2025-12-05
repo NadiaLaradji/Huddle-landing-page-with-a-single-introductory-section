@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(bg-desktop.svg);
+    padding: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: white;
+}
+header img{
+    width: 150px;
+}
+main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 580px 390px;
+    gap: 40px;
+    justify-content: start;
+}
+main .content p{
+   font-size: 14px;
+}
+main img{
+    width: 580px;
+}
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 12px 40px;
+    color: hsl(257, 40%, 49%);
+}
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+footer{
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
+}
+footer i{
+   margin-right: 25px;
+   font-size: 25px;
+}
+footer i:hover{
+    color: hsl(300, 69%, 71%);
+}
